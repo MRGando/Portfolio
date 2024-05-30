@@ -1,0 +1,14 @@
+Hello! I'm Reza Kamali, a passionate Web Developer and English Teacher, 24 years old. My journey in the world of technology and education has been incredibly rewarding, and I’m excited to share a bit about myself with you.
+
+With 5 years of experience in web development, I’ve honed my skills in creating dynamic, user-friendly websites and applications. My expertise spans across various programming languages and frameworks, and I am always eager to dive into new technologies and trends in the web development sphere. Whether it’s front-end design or back-end development, I thrive on the challenge of bringing innovative ideas to life on the web.
+
+In addition to my technical pursuits, I have a strong passion for teaching English. Helping others improve their language skills and gain confidence in their communication abilities is immensely fulfilling. I believe that teaching and web development share a common thread: both require creativity, patience, and a dedication to continuous learning.
+
+Here’s a bit more about me:
+
+    Experience: Over the past 5 years, I’ve worked on a variety of web development projects, ranging from small business websites to complex web applications. Each project has been a unique learning opportunity, allowing me to expand my skill set and adapt to new challenges.
+    Education: My educational background in both technology and language has provided a solid foundation for my dual careers. I continually seek out new courses and certifications to stay current with industry standards and best practices.
+    Passions: Beyond coding and teaching, I’m an avid learner with a deep interest in the latest technological advancements. I enjoy exploring new tools and methodologies that can enhance my work and contribute to my professional growth.
+    Goals: My goal is to merge my technical expertise with my teaching skills to create educational resources and platforms that help others learn and grow. I aspire to be at the forefront of web development innovation while also making a positive impact through education.
+
+Thank you for taking the time to learn about me. If you’d like to discuss potential projects, teaching opportunities, or just want to chat about the latest in web technology, feel free to reach out!
