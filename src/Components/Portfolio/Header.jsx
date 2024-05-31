@@ -7,13 +7,7 @@ import arrowIcon from "@/Assets/Icons/arrow.svg";
 export default function Header() {
   return (
     <div className={styles.main}>
-      <Image
-        className={styles.circles}
-        src={circles}
-        width={550}
-        height={550}
-        alt=""
-      />
+      
       <Image className={styles.logo} src={logo} width={60} height={60} alt="" />
       <ul className={styles.menu}>
         <li>رزومه</li>

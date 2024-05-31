@@ -18,17 +18,16 @@ export default function Footer() {
       <span className={styles.floatText}>فوتر</span>
       <div className="Container">
         <div className={styles.content}>
-        <div className={styles.icons}>
-          <Image src={dribbbleIcon} width={300} height={300} alt="" />
-          <Image src={instagramIcon} width={300} height={300} alt="" />
-          <Image src={youtubeIcon} width={300} height={300} alt="" />
-          <Image src={telegramIcon} width={300} height={300} alt="" />
-        </div>
-
-        <span>
-          <span>{new Date().getFullYear()}</span>{" "}
-          © تمامی حقوق نزد طراح محقوظ است
-        </span>
+          <span>
+            تمامی حقوق نزد طراح محقوظ است ©
+            <span>{new Date().getFullYear()}</span>
+          </span>
+          <div className={styles.icons}>
+            <Image src={dribbbleIcon} width={300} height={300} alt="" />
+            <Image src={instagramIcon} width={300} height={300} alt="" />
+            <Image src={youtubeIcon} width={300} height={300} alt="" />
+            <Image src={telegramIcon} width={300} height={300} alt="" />
+          </div>
         </div>
       </div>
     </div>
