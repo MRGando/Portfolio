@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Chamran"; /* Font family name */
+  src: url("../Assets/Fonts/CHAMRAN.TTF");
+}
+/* Default light theme */
+:root {
+  --background-color: #d9dcdf;
+  --text-color: #000000;
+  --text-gray: #575757;
+  --primary-color: #b92a2a;
+}
+
+/* Dark theme */
+.dark-theme {
+  --background-color: #181818;
+  --text-color: #f5f5f5;
+  --primary-color: #1e90ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chamran";
+}
+/* Apply variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.Container {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
+  padding: 0 50px;
+}

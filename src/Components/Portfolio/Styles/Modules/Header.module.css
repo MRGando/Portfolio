@@ -1,0 +1,49 @@
+.main {
+  width: 90%;
+  max-width: 1390px;
+  height: 85px;
+  background-color: white;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 10;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: 38px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 20px;
+  & > .logo {
+    height: 60px !important;
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  & > * {
+    margin: 0 20px;
+    font-size: 15px;
+  }
+}
+.talkButton {
+  color: #b92f2f;
+  border-bottom: 3px solid #b92f2f;
+  display: flex;
+  justify-content: space-between;
+
+  .arrowIcon{
+    margin-right: 5px;
+  }
+
+}
+
+.circles {
+  position: absolute;
+  top: -15em;
+  right: -15em;
+  z-index: -1;
+}
