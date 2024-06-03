@@ -1,14 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    webpack: (config, { isServer }) => {
-        // Add support for CSS
-        config.module.rules.push({
-            test: /\.css$/,
-            use: ['style-loader', 'css-loader'],
-        });
+import { withCss } from 'next-css';
 
-        return config;
-    },
-};
+export default withCss({
+  webpack(config, { isServer }) {
+    // Add support for CSS
+    config.module.rules.push({
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
+    });
 
-module.exports = nextConfig;
+    return config;
+  },
+});
