@@ -14,5 +14,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('child', '& > *'); // Targets direct children
+      addVariant('child-hover', '& > *:hover'); // Targets direct children on hover
+    },
+  ],
 };

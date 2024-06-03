@@ -5,16 +5,17 @@ import instagramIcon from "@/Assets/Icons/instagram.svg";
 import youtubeIcon from "@/Assets/Icons/youtube.svg";
 import telegramIcon from "@/Assets/Icons/telegram.svg";
 import Image from "next/image";
+
 export default function Footer() {
   return (
     <div className={styles.main}>
-      <Image
+      {/* <Image
         src={circlesImage}
         width={300}
         height={300}
         className={styles.circles}
         alt=""
-      />
+      /> */}
       <span className={styles.floatText}>فوتر</span>
       <div className="Container">
         <div className={styles.content}>
