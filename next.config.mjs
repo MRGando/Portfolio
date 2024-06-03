@@ -1,14 +1,27 @@
 /** @type {import('next').NextConfig} */
-import { withCss } from 'next-css';
+const withCSS = require('@zeit/next-css')
+const withLess = require('@zeit/next-less')
+const withSass = require('@zeit/next-sass')
 
-export default withCss({
-    webpack(config, { isServer }) {
-        // Add support for CSS
-        config.module.rules.push({
-            test: /\.css$/,
+if (typeof require !== 'undefined') {
+  require.extensions['.less'] = () => {}
+}
+
+module.exports = withCSS(
+  withLess(
+    withSass({
+      lessLoaderOptions: {
+        javascriptEnabled: true,
+      },
+      webpack: config => {
+        config.module.rules.push(
+          {
+            test: /\.css$/i,
             use: ['style-loader', 'css-loader'],
-        });
-
+          }
+        );
         return config;
-    },
-});
+      }
+    })
+  )
+)
